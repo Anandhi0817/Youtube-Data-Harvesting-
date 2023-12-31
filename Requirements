@@ -1,0 +1,5 @@
+! pip install google-api-python-client
+! pip install pandas
+! pip install pymongo
+! pip insatll psycopg2
+! pip insatll streamlit
