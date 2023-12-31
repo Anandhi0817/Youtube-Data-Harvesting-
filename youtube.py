@@ -11,6 +11,7 @@ def Api_connect():
     api_version="v3"
     youtube=build(api_service_name,api_version,developerKey=Api_Id)
     return youtube
+
 youtube=Api_connect()
 
 #Getting Channels information 
@@ -157,7 +158,7 @@ def channels_table():
                         port='5432')
     cursor=mydb.cursor()
 
-    drop_query=''''Drop table if exits channels'''
+    drop_query='''Drop table if exits channels'''
     cursor.execute(drop_query)
     mydb.commit()
     
